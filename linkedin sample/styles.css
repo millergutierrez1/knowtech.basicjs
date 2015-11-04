@@ -1,0 +1,45 @@
+body {
+	background: #EEE;
+}
+
+#siteHeader {
+	display: flex;
+	position: fixed;
+	background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%);
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#siteHeader #globalMenu {
+	background: linear-gradient(to bottom, #262626 0%,#0e0e0e 100%);
+}
+
+#siteHeader h1 {
+	color: white;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+#siteHeader #siteHeaderItems {
+	display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+#siteHeader #globalTopBar {
+	width: 86vw;
+	display: flex;
+}
+
+#siteHeader #globalTopBar #globalSearchBox {
+	width: 20vw;
+}
+
+#siteHeader #globalTopBar #globalActions {
+	width: 25vw;
+}
+
+#siteHeader #globalTopBar #globalMenu {
+	width: 15vw;
+}
